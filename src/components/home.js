@@ -17,7 +17,7 @@ import * as actions from '../actions'
 }
   render() {
     return (
-      <div className='app'>
+      <div className='home'>
         <Logo />
         <SearchBar onSubmit={(query) => this.handleSearchBarSubmit(query)} />
         <RecentPosts />
