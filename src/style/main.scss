@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'Lato' sans-serif;
 }
@@ -21,3 +23,6 @@ body {
     justify-items: center;
     //grid-template-rows: 1fr 2fr 1fr;
 }
+$color-gray-one: #666666;
+$color-gray-two: #b3b3b3;
+@import './searchBar.scss';
