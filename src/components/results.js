@@ -8,7 +8,7 @@ export default class Results extends Component {
         console.log(query);
         
     }
-
+ 
     render() {
         return (
             <div>
