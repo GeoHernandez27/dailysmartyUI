@@ -59,7 +59,7 @@ class Post extends Component {
           <AnimateHeight duration={500} height={this.state.height}>
             <div className="result-post__links">{this.renderLinks()} </div>
           </AnimateHeight>
-          <div className="result-post__topics">{this.renderTopics()}</div>
+          <div className="result-post__topics">Tags:{this.renderTopics()}</div>
          
         </li>
       );
