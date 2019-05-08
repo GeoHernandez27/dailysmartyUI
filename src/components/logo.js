@@ -1,19 +1,27 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+
+import { Link } from "react-router-dom";
 
 class Logo extends Component {
-    render() {
-        const size = {
-            height: this.props.size ? this.props.size: 105,
-            width: this.props.size ? this.props.size: 105
-        }
-        return (
-            <div>
-                <div className="logo-main">
-                    <img style={size} src="/assets/ds_circle_logo.png" alt="daily smarty ui image"/>
-                </div>
-            </div>
-        )
-    }
+  render() {
+    const size = {
+      height: this.props.size ? this.props.size : 105,
+      width: this.props.size ? this.props.size : 105
+    };
+    return (
+      <div>
+        <div className="logo-main">
+          <Link to="/">
+            <img
+              style={size}
+              src="/assets/ds_circle_logo.png"
+              alt="daily smarty ui image"
+            />
+          </Link>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Logo;
