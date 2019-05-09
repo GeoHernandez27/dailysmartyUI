@@ -1,3 +1,3 @@
 # React/Redux UI Project
 
-Built using Reactjs, Redux, API calls, NPM packages, and Scss.
+Built using Reactjs, Redux, API calls, Jquery, NPM packages, and Scss.
